@@ -9,10 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"
-            android:label="Sujan Dictionary"
-            >
-
+        <activity android:name=".CapitalActivity"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="Sujan Dictionary">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
